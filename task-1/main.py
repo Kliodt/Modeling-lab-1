@@ -1,7 +1,10 @@
+from pathlib import Path
+
 from task import *
 import json
+root_path = str(Path(__file__).resolve().parents[1])
 
-with open("../sample.json", "r") as file:
+with open(f"{root_path}/sample.json", "r") as file:
     sample = json.load(file)["sample"]
 
 for size in [10, 20, 50, 100, 200, 300]:
