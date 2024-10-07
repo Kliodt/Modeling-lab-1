@@ -1,7 +1,7 @@
 from task import *
 import json
 
-with open("./sample.json", "r") as file:
+with open("../sample.json", "r") as file:
     sample = json.load(file)["sample"]
 
 for size in [10, 20, 50, 100, 200, 300]:
