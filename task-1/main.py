@@ -39,3 +39,4 @@ for size in [10, 20, 50, 100, 200, 300]:
     print(f"Дов. инт. (0.90): {doveritelniyInterval(sizedSample, 0.90)}")
     print(f"Дов. инт. (0.95): {doveritelniyInterval(sizedSample, 0.95)}")
     print(f"Дов. инт. (0.99): {doveritelniyInterval(sizedSample, 0.99)}")
+
