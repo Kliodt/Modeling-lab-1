@@ -27,5 +27,5 @@ def doveritelniyInterval(sample, probability) -> tuple[float, float]:
     return (mx - eps, mx + eps)
 
 def otkloneniyePercent(value, etalon) -> float:
-    return (1 - etalon / value) * 100
+    return (1 - value / etalon) * 100
 
